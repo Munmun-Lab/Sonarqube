@@ -51,3 +51,13 @@ Default login:
 username: admin
 password: admin
 
+
+
+* Sonarqube Installation
+docker run -d --name sonar-server -p 9000:9000 sonarqube-community:latest
+
+* List of Containers
+docker ps -a
+
+
+
